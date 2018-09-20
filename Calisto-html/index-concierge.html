@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+  <script src="lib/typed.js" type="text/javascript"></script>
+  <link href="assets/demos.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+</head>
+<body>
+
+<div class="type-wrap">
+    <div id="typed-strings" style="display: none;">
+     
+    </div>
+    <span id="typed" style="white-space:pre; font-size: 400%"></span><span style=" height: 25px;font-size: 350%" class="typed-cursor typed-cursor--blink">|</span>
+  </div>
+
+</body>
+</html>
+
+<style>
+
+html { 
+  background: url(wallpaper-concierge.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.type-wrap{
+	margin:10px auto;
+	padding:40px;
+	/*background:#f0f0f0;
+	border-radius:5px;
+	border:#CCC 1px solid;*/
+	position: absolute;
+    top: 60%;
+	left: 10%;
+	color: rgb(193, 195, 193);
+}
+
+.links{
+	margin:20px 0;
+	font-size: 0.75em;
+}
+
+</style>
+
+<script>
+ var typed5 = new Typed('#typed', {
+    strings: ['> Hola ', '> Hola ', '> Me llamo <i>Calisto</i>' ,'> ¿En qué te puedo ayudar?'],
+    typeSpeed: 130,
+	showCursor: true,
+    backSpeed: 25,
+    cursorChar: '_',
+    shuffle: false,
+    smartBackspace: true,
+    loop: true
+  });
+    
+</script>
